@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-25T11:54:22 PKT" name="Surefire suite" finished-at="2022-12-25T11:54:30 PKT" duration-ms="8477">
+    <groups>
+    </groups>
+    <test started-at="2022-12-25T11:54:22 PKT" name="Surefire test" finished-at="2022-12-25T11:54:30 PKT" duration-ms="8477">
+      <class name="com.spotify.oauth2.tests.PlaylistTests">
+        <test-method signature="createPlaylist()[pri:0, instance:com.spotify.oauth2.tests.PlaylistTests@7a8c8dcf]" started-at="2022-12-25T11:54:22 PKT" name="createPlaylist" description="Create New Playlist" finished-at="2022-12-25T11:54:27 PKT" duration-ms="5602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPlaylist -->
+        <test-method signature="createPlaylistWithEpiredToken()[pri:0, instance:com.spotify.oauth2.tests.PlaylistTests@7a8c8dcf]" started-at="2022-12-25T11:54:27 PKT" name="createPlaylistWithEpiredToken" description="Should Not Create Playlist with Expired Token" finished-at="2022-12-25T11:54:29 PKT" duration-ms="1061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPlaylistWithEpiredToken -->
+        <test-method signature="createPlaylistWithoutName()[pri:0, instance:com.spotify.oauth2.tests.PlaylistTests@7a8c8dcf]" started-at="2022-12-25T11:54:29 PKT" name="createPlaylistWithoutName" description="Should Not Create Playlist without ame" finished-at="2022-12-25T11:54:29 PKT" duration-ms="725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPlaylistWithoutName -->
+        <test-method signature="getPlaylist()[pri:0, instance:com.spotify.oauth2.tests.PlaylistTests@7a8c8dcf]" started-at="2022-12-25T11:54:29 PKT" name="getPlaylist" description="Get Playlist" finished-at="2022-12-25T11:54:30 PKT" duration-ms="460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPlaylist -->
+        <test-method signature="updatePlaylistDetails()[pri:0, instance:com.spotify.oauth2.tests.PlaylistTests@7a8c8dcf]" started-at="2022-12-25T11:54:30 PKT" name="updatePlaylistDetails" description="Update Playlist" finished-at="2022-12-25T11:54:30 PKT" duration-ms="501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatePlaylistDetails -->
+      </class> <!-- com.spotify.oauth2.tests.PlaylistTests -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
